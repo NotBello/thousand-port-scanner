@@ -29,5 +29,5 @@ def scanPort(port):
 	else:
 		print(colored("[+] Port %d is open" % (port), 'green'))
 
-for port in range(1,1000):
+for port in range(1,1001):
 	scanPort(port)
